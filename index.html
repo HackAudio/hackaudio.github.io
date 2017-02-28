@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="css/style.css">
+    <title>HackAudio</title>
+	<script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+		crossorigin="anonymous">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('a[href="#projects"]').click(function(){
+				$("#container").load('html/projects.html');
+			});
+		});
+	</script>
+  </head>
+  <body>
+    <div id="header">
+		<ul>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#nmp">NMP Code</a></li>
+		</ul>
+	</div>
+	<br>
+	<div id="container"></div>
+	<br>
+    <div id="footer"></div>
+  </body>
+</html>
