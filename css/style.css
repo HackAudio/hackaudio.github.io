@@ -1,14 +1,28 @@
+html *
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
 #header
 {
 	margin: auto;
 	width: 50%;
+	background-color: #000;
+}
+
+#banner
+{
+	width: 256px;
+	height: 256px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
 }
 
 ul
 {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
 	overflow: hidden;
 	background-color: #000;
 }
@@ -50,7 +64,8 @@ body
 #container
 {
 	background-color: #fff;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	width: 50%;
 	height: 500px;
 }
