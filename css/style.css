@@ -21,10 +21,11 @@ html *
 
 ul
 {
-	list-style-type: none;
-	margin: 0;
-	overflow: hidden;
+	width: 75%;
+	margin: auto;
+	padding: 0;
 	background-color: #000;
+	text-align: center;
 }
 
 li
@@ -47,7 +48,9 @@ li a
 	display: inline-block;
 	text-align: center;
 	text-decoration: none;
-	padding: 14px 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
 	color: #fff;
 }
 
