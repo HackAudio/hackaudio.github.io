@@ -75,8 +75,12 @@ body
 
 #footer
 {
+	font-size: 8pt;
+	color: #E8E8E8;
+	text-align: center;
 	background-color: #000;
 	width: 50%;
 	margin: auto;
-	height: 50px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
